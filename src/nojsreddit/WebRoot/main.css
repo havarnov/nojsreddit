@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+
+input:checked + label + div { display: none; }
+input:checked + label + div + ul { display: none; }
+
+label {
+    background-color: yellow;
+    display: inline-block;
+    cursor: pointer;
+}
